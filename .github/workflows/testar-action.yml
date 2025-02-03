@@ -7,9 +7,7 @@ jobs:
   python-action:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout codigo
-        uses: actions/checkout@v4
-        
+
       - name: Usar a ação personalizada
         id: colaborador
         uses: lccinacio/action-python@v10.0
