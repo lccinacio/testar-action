@@ -1,0 +1,16 @@
+name: Executar minha action
+on:
+  push:
+    branches:
+      - main
+jobs:
+  python-action:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Usar a ação personalizada
+        id: colaborador
+        uses: lccinacio/action-python@v10.0
+        with:
+          nome: 'Lucas'
+          sobrenome: 'Bezerra'
+          cargo: 'Engenheiro de qualidade'
