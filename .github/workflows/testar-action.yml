@@ -13,5 +13,5 @@ jobs:
         uses: lccinacio/action-python@v12.0
         with:
           nome: 'Lucas'
-          sobrenome: 'Bezerra'
+          sobrenome: 'Inacio'
           cargo: 'Engenheiro de qualidade'
