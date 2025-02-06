@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
 
-      - name: Usar a ação personalizada test
+      - name: Usar a ação personalizada na raiz
         id: colaborador
         uses: lccinacio/action-python@main
         with:
